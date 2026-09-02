@@ -9,11 +9,11 @@
     "folderName": null,
     "entryFile": "index.html",
     "projectsJsonPath": null,
-    "state": "pending",
-    "lastUrl": null,
-    "deployedAt": null,
-    "provider": "cloudflare-pages",
-    "note": "AutoClaw managed preview (website_delivery_start) returned not_authorized; shipping to Cloudflare Pages via API per owner instruction."
+    "state": "active",
+    "lastUrl": "https://jordan-thirkle.github.io/byjtt-web-design-templates/",
+    "deployedAt": "2026-09-02T12:10:00Z",
+    "provider": "github-pages",
+    "note": "Owner asked for Cloudflare or Vercel; connector token proved read-only for Pages/Workers writes (auth error on POST) and Vercel had no credentials, so the marketplace shipped on GitHub Pages (gh-pages branch, host-reported URL). Custom domain byjtt.com can be pointed here via Cloudflare DNS later; wrangler direct upload becomes available the moment a Pages:Edit token exists."
   },
   "templates": [
     {
@@ -126,7 +126,7 @@
         "presetAnchor": "18 Kenya Hara (emptiness school) with Swiss grid discipline"
       },
       "preview": {
-        "liveUrl": null,
+        "liveUrl": "https://jordan-thirkle.github.io/byjtt-web-design-templates/previews/embercraft/",
         "screenshots": [
           "./assets/templates/embercraft/01_hero.jpg",
           "./assets/templates/embercraft/02_story.jpg",
@@ -153,9 +153,9 @@
       ],
       "supersededBy": null,
       "createdAt": "2026-09-02T09:30:00Z",
-      "updatedAt": "2026-09-02T11:30:00Z",
-      "status": "listed",
-      "releaseState": "unreleased"
+      "updatedAt": "2026-09-02T12:10:00Z",
+      "status": "deployed",
+      "releaseState": "published"
     }
   ]
 }
