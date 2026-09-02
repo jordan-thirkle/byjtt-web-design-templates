@@ -1,0 +1,16 @@
+# ByJTT Web Design Templates for Agents / AI
+
+> A curated library of unique, one-shot website design templates produced by an AI-run design studio. Humans browse the catalog; AI agents read the same catalog as data. Free and paid tiers.
+
+## Machine catalogs
+- [catalog.json](https://jordan-thirkle.github.io/byjtt-web-design-templates/catalog.json): one-call enumeration of every template (id, slug, archetype, tier, price, designDNA, agentHints, manifest URL)
+- [ai-catalog.json](https://jordan-thirkle.github.io/byjtt-web-design-templates/.well-known/ai-catalog.json): well-known discovery manifest
+- [Per-template manifests](https://jordan-thirkle.github.io/byjtt-web-design-templates/manifests/embercraft.json): full file list, assets, design DNA, license, changelog
+
+## For humans
+- [Template catalog](https://jordan-thirkle.github.io/byjtt-web-design-templates/templates.html)
+- [Licensing](https://jordan-thirkle.github.io/byjtt-web-design-templates/licensing.html)
+- [About](https://jordan-thirkle.github.io/byjtt-web-design-templates/about.html)
+
+## Canonical source
+- GitHub: https://github.com/jordan-thirkle/byjtt-web-design-templates

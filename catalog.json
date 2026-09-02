@@ -1,7 +1,16 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-02T12:10:00Z",
+  "generatedAt": "2026-09-02T13:00:00Z",
   "marketplace": "ByJTT Web Design Templates for Agents / AI",
+  "categories": [
+    "landing-pages",
+    "portfolio",
+    "restaurant",
+    "saas",
+    "event",
+    "docs",
+    "blog"
+  ],
   "count": 1,
   "entries": [
     {
@@ -11,6 +20,7 @@
       "version": "1.0.0",
       "language": "en",
       "archetype": "landing",
+      "category": "landing-pages",
       "description": "A one-page specialty coffee roaster template with a photography-heavy dawn hero, editorial story section with stat strip, weekly bean cards, opening hours, and a contact footer. Ships responsive at 375/768/1440 with warm-editorial generated art direction.",
       "tags": [
         "coffee",
@@ -70,7 +80,7 @@
           "e-commerce checkout must live on the same page"
         ]
       },
-      "updatedAt": "2026-09-02T12:10:00Z"
+      "updatedAt": "2026-09-02T13:00:00Z"
     }
   ]
 }
