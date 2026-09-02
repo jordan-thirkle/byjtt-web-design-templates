@@ -41,3 +41,6 @@ Semantic landmarks (header/main/section/footer), one h1, alt text on all photos,
 
 ## 10. Uniqueness statement
 Registry is empty at design time (first entry) — direction sets the baseline DNA. Distinctive by construction: Hara-anchored whitespace rhythm + ember-line signature + warm editorial photography set; future entries must differ per Phase 5 rules.
+
+## 11. Benchmark-driven refinements (v1.1.0)
+Nine leading roaster sites were HTML-verified (Stumptown, La Colombe, Counter Culture, Onyx, Sey, Intelligentsia, Merit, Pact, Kiss the Hippo — see docs). Convergent patterns adopted: café-grade product data on cards (origin · process · roast + note chips + price + roast-week badge), a named subscription offering (dark band, three cadences, honest email CTA — no fabricated checkout), freshness storytelling (roast-date promise + peak-flavor education), eyebrow micro-labels (uppercase Inter, letterspaced), and bag-forward product photography on consistent neutral grounds (three hero-referenced generations). The one-accent discipline is retained: ember for CTAs/accents, --ember-bright #E89463 reserved for dark surfaces.

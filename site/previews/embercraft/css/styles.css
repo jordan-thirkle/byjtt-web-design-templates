@@ -158,6 +158,12 @@ body {
   font-family: var(--font-display); font-weight: 600;
   font-size: clamp(1.8rem, 3.5vw, 2.4rem); line-height: 1.15;
 }
+
+.eyebrow {
+  font-size: 0.78rem; font-weight: 600; text-transform: uppercase;
+  letter-spacing: 0.16em; color: var(--muted); margin-bottom: 0.7rem;
+}
+.eyebrow-dark { color: rgba(250, 246, 240, 0.66); }
 .story-copy p + p { margin-top: 1rem; }
 .stat-strip {
   display: flex; gap: 2.5rem; margin-top: 2rem; padding-top: 1.4rem;
@@ -174,18 +180,64 @@ body {
   gap: 1.5rem; margin-top: 2.5rem;
 }
 .bean-card {
-  background: var(--paper); border-radius: var(--radius); padding: 1.6rem 1.5rem;
+  background: var(--paper); border-radius: var(--radius); overflow: hidden;
   box-shadow: 0 4px 14px rgba(43,33,27,0.07);
   border-top: 3px solid transparent;
+  display: flex; flex-direction: column;
   transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 .bean-card:hover { transform: translateY(-4px); box-shadow: var(--shadow); border-top-color: var(--ember); }
-.bean-card h3 { font-family: var(--font-display); font-size: 1.35rem; font-weight: 600; }
-.origin { color: var(--ember-deep); font-weight: 600; font-size: 0.9rem; margin-top: 0.15rem; }
-.notes { color: var(--muted); margin-top: 0.7rem; }
-.roast-level { font-size: 0.85rem; color: var(--muted); margin-top: 0.9rem; }
-.price { font-family: var(--font-display); font-size: 1.45rem; font-weight: 600; margin-top: 0.6rem; }
-.beans-note { margin-top: 1.8rem; color: var(--muted); font-style: italic; }
+.bean-img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+.bean-body { padding: 1.3rem 1.4rem 1.5rem; display: flex; flex-direction: column; gap: 0.6rem; flex: 1; }
+.bean-head { display: flex; align-items: baseline; justify-content: space-between; gap: 0.6rem; }
+.bean-card h3 { font-family: var(--font-display); font-size: 1.3rem; font-weight: 600; }
+.spec-row {
+  font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em;
+  color: var(--muted); font-variant-numeric: tabular-nums;
+}
+.chips { list-style: none; display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.chips li {
+  background: var(--surface); color: var(--ink); font-size: 0.75rem; font-weight: 500;
+  padding: 0.22rem 0.6rem; border-radius: 999px;
+}
+.fresh-badge { font-size: 0.75rem; color: var(--muted); }
+.fresh-badge span { color: var(--ember); font-size: 0.6rem; vertical-align: 1px; }
+.price { font-family: var(--font-display); font-size: 1.45rem; font-weight: 600; }
+.btn-card { display: block; text-align: center; margin-top: auto; }
+
+/* ---------- subscribe (dark band) ---------- */
+.subscribe { background: var(--ink); color: var(--paper); padding-block: 5rem; }
+.subscribe h2 {
+  font-family: var(--font-display); font-weight: 600;
+  font-size: clamp(1.8rem, 3.5vw, 2.4rem); line-height: 1.15;
+}
+.section-sub-dark { color: rgba(250, 246, 240, 0.72); }
+.sub-grid {
+  list-style: none; display: grid; grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem; margin-top: 2.2rem;
+}
+.sub-card {
+  border: 1px solid rgba(250, 246, 240, 0.18); border-radius: var(--radius);
+  padding: 1.4rem 1.3rem; background: rgba(250, 246, 240, 0.04);
+  transition: border-color 0.18s ease, transform 0.18s ease;
+}
+.sub-card:hover { border-color: var(--ember); transform: translateY(-3px); }
+.sub-cadence { font-family: var(--font-display); font-size: 1.25rem; font-weight: 600; }
+.sub-desc { color: rgba(250, 246, 240, 0.72); font-size: 0.92rem; margin-top: 0.45rem; }
+.sub-price { color: #E89463; font-weight: 600; font-variant-numeric: tabular-nums; margin-top: 0.6rem; }
+.roast-form { display: flex; flex-wrap: wrap; gap: 0.7rem; margin-top: 2.2rem; }
+.roast-form input[type="email"], .roast-form select {
+  background: rgba(250, 246, 240, 0.07); color: var(--paper);
+  border: 1px solid rgba(250, 246, 240, 0.25); border-radius: 999px;
+  padding: 0.7rem 1.2rem; font-family: var(--font-body); font-size: 0.95rem;
+}
+.roast-form input[type="email"] { flex: 1 1 240px; }
+.roast-form input::placeholder { color: rgba(250, 246, 240, 0.5); }
+.roast-form select { cursor: pointer; }
+.roast-form select option { color: var(--ink); background: var(--paper); }
+.form-fallback { margin-top: 1rem; }
+.form-fallback a, .form-note a { color: #E89463; }
+.form-note { margin-top: 1.1rem; color: rgba(250, 246, 240, 0.6); font-size: 0.85rem; max-width: 60ch; }
 
 /* ---------- visit ---------- */
 .visit { padding-block: 5.5rem; }

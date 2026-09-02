@@ -52,7 +52,8 @@ Failure: empty or contradictory brief → most conservative defaults for the inf
 **Purpose:** Lock a unique, coherent design DNA before any pixels exist.
 
 Actions:
-1. Read `/Users/jordanthirkle/.openclaw-autoclaw/skills/aesthetic-preset-library/SKILL.md`; select one preset as anchor (or a justified two-preset blend across different schools) matched to subject and tone.
+1. Benchmark first: fetch or research 3–5 leading live sites in the template's niche and extract their convergent patterns (layout, type, palette discipline, product/data presentation, commerce-adjacent UX, storytelling). Record what the template must have to be competitive, and what it must NOT copy (backend-dependent patterns). Log the comparison in DESIGN-NOTES.md §11.
+2. Read `/Users/jordanthirkle/.openclaw-autoclaw/skills/aesthetic-preset-library/SKILL.md`; select one preset as anchor (or a justified two-preset blend across different schools) matched to subject and tone.
 2. Scan the registry's existing `designDNA` summaries; choose a direction that differs (different preset, or a mutated signature element / palette family if the preset repeats).
 3. Define: palette tokens (hex + role: bg/surface/text/accent ×2), type pairing + scale, ordered layout skeleton, motion policy incl. `prefers-reduced-motion`, and exactly one **signature element** (a memorable motif reused across hero, sections, favicon).
 4. Write the image DNA — reusable Seedream prompt fragments (style words, palette words, lighting, subject rules) — into the notes.
@@ -133,8 +134,9 @@ Actions:
 2. Rebuild site `catalog.json` **from the registry** (never hand-edit): `schemaVersion`, `generatedAt`, `count`, full `entries[]` including `agentHints`, `detailPage`, `manifestUrl:"./manifests/<slug>.json"`, `thumbnail`.
 3. Copy the manifest → site `manifests/<slug>.json`; rebuild `/.well-known/ai-catalog.json` from the registry (mapping in references/catalog-and-metadata.md).
 4. Generate the detail page `templates/<slug>.html` from the manifest: hero, preview state (live URL only once host-reported — before that show "preview pending deployment"), gallery, feature list, palette/type strip, signature-element callout, tier + purchase/download state (honest: free ⇒ download link; paid ⇒ purchase link or coming-soon), license link, agent-notes box.
-5. Insert/update the catalog card in `templates.html` and the newest strip on `index.html` (image-led thumbnail, name, tags, tier badge, detail link).
-6. Update the registry entry: `status:"listed"`, `updatedAt`.
+5. Ship the agent prompt kit with every listing: versioned prompt files under `kits/<slug>/v<kit>/` (build / brand-customize / iterate / publish, each with voice rules, safety rails, exact commands, `[YOUR-…]` placeholder legend, and the manifest + zip URLs), rendered on the detail page as selectable blocks with copy-from-DOM buttons and a no-JS fallback. Never edit a shipped kit version in place — add a version directory and a changelog line.
+6. Insert/update the catalog card in `templates.html` and the newest strip on `index.html` (image-led thumbnail, name, tags, tier badge, detail link).
+7. Update the registry entry: `status:"listed"`, `updatedAt`, and the `promptKit` pointer.
 
 Failure: any mismatch (count, fields, dead link) → regenerate `catalog.json`, ai-catalog.json, and touched pages entirely from the registry; registry wins. Partial page-edit failure → rebuild that page from the manifest rather than patching.
 

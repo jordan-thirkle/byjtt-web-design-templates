@@ -9,6 +9,19 @@
   var yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = String(new Date().getFullYear());
 
+  // Roast-list form (honest static flow: opens a pre-filled email)
+  var form = document.getElementById("roast-form");
+  if (form) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var email = (document.getElementById("sub-email") || {}).value || "";
+      var cadence = (document.getElementById("sub-cadence") || {}).value || "Every 2 weeks";
+      var subject = encodeURIComponent("Start my coffee plan (" + cadence + ")");
+      var body = encodeURIComponent("Hi Embercraft,\n\nI'd like to start a plan on this cadence: " + cadence + ".\nMy email: " + email + "\n\nThanks!");
+      window.location.href = "mailto:hello@embercraft.coffee?subject=" + subject + "&body=" + body;
+    });
+  }
+
   // Mobile nav
   var toggle = document.querySelector(".nav-toggle");
   var nav = document.getElementById("site-nav");

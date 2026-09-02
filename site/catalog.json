@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-02T12:40:00Z",
+  "generatedAt": "2026-09-02T13:40:00Z",
   "marketplace": "ByJTT Web Design Templates for Agents / AI",
   "canonicalUrl": "https://byjtt-templates.pages.dev",
   "categories": [
@@ -18,11 +18,11 @@
       "id": "T-001",
       "slug": "embercraft",
       "name": "Embercraft",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "language": "en",
       "archetype": "landing",
       "category": "landing-pages",
-      "description": "A one-page specialty coffee roaster template with a photography-heavy dawn hero, editorial story section with stat strip, weekly bean cards, opening hours, and a contact footer. Ships responsive at 375/768/1440 with warm-editorial generated art direction.",
+      "description": "A one-page specialty coffee roaster template with a photography-heavy dawn hero, editorial story with freshness promise, cafe-grade bean cards (origin, process, roast level, tasting-note chips, prices, roast-week badge), a dark subscription band with cadence options and an honest email CTA, opening hours, and a contact footer. Ships responsive at 375/768/1440 with warm-editorial generated art direction.",
       "tags": [
         "coffee",
         "cafe",
@@ -81,7 +81,8 @@
           "e-commerce checkout must live on the same page"
         ]
       },
-      "updatedAt": "2026-09-02T12:40:00Z"
+      "updatedAt": "2026-09-02T13:40:00Z",
+      "promptKit": "./kits/embercraft/v1.1/"
     }
   ]
 }
