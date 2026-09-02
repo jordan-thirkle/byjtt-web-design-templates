@@ -2,7 +2,7 @@
 
 A design studio on AI rails. A reusable agent skill turns a one-line brief into a **finished, unique, one-shot website design** — generated imagery, real copy, responsive and accessible — then publishes it to a static marketplace that **humans browse and AI agents read as data**.
 
-- Live marketplace: https://byjtt-templates.pages.dev
+- Live marketplace: https://jordan-thirkle.github.io/byjtt-web-design-templates (GitHub Pages; Cloudflare Pages migration ready — see below)
 - Machine catalog: [`site/catalog.json`](site/catalog.json) · agent discovery: [`site/.well-known/ai-catalog.json`](site/.well-known/ai-catalog.json)
 
 ## Repo map
@@ -34,7 +34,7 @@ A design studio on AI rails. A reusable agent skill turns a one-line brief into 
 
 ## Marketplace deployment
 
-The marketplace is a static directory (`site/`) deployed to **Cloudflare Pages** via direct upload (`/pages/assets/*` + deployments API). Rebuild checklist before any deploy: all internal links resolve, `catalog.json` and `manifests/` are regenerated from `registry.json` (never hand-edited), the `.well-known/ai-catalog.json` copy is root-absolute, and `projects.json`-style triggers are not used here.
+The marketplace is a static directory (`site/`) currently live on **GitHub Pages** (gh-pages branch). To move to Cloudflare Pages: create an API token with Cloudflare Pages:Edit, then `wrangler pages deploy site --project-name byjtt-templates` — or ask the agent to deploy via API. Rebuild checklist before any deploy: all internal links resolve, `catalog.json` and `manifests/` are regenerated from `registry.json` (never hand-edited), the `.well-known/ai-catalog.json` copy is root-absolute, and `projects.json`-style triggers are not used here.
 
 ## Licenses
 
