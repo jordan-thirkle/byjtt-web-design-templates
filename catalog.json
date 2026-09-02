@@ -1,0 +1,158 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-02T15:57:41Z",
+  "marketplace": "ByJTT Web Design Templates for Agents / AI",
+  "canonicalUrl": "https://byjtt-templates.pages.dev",
+  "categories": [
+    "landing-pages",
+    "portfolio",
+    "restaurant",
+    "saas",
+    "event",
+    "docs",
+    "blog"
+  ],
+  "count": 2,
+  "entries": [
+    {
+      "id": "T-001",
+      "slug": "embercraft",
+      "name": "Embercraft",
+      "version": "1.1.0",
+      "language": "en",
+      "archetype": "landing",
+      "category": "landing-pages",
+      "description": "A one-page specialty coffee roaster template with a photography-heavy dawn hero, editorial story with freshness promise, cafe-grade bean cards (origin, process, roast level, tasting-note chips, prices, roast-week badge), a dark subscription band with cadence options and an honest email CTA, opening hours, and a contact footer. Ships responsive at 375/768/1440 with warm-editorial generated art direction.",
+      "tags": [
+        "coffee",
+        "cafe",
+        "roaster",
+        "warm",
+        "editorial",
+        "one-page",
+        "landing"
+      ],
+      "tier": "free",
+      "price": null,
+      "purchaseState": "not-applicable",
+      "purchaseUrl": null,
+      "license": "ByJTT Free Template License",
+      "detailPage": "./templates/embercraft.html",
+      "manifestUrl": "./manifests/embercraft.json",
+      "thumbnail": "./assets/templates/embercraft/card.jpg",
+      "preview": {
+        "liveUrl": "https://byjtt-templates.pages.dev/previews/embercraft/",
+        "screenshots": [
+          "./assets/templates/embercraft/01_hero.jpg",
+          "./assets/templates/embercraft/02_story.jpg",
+          "./assets/templates/embercraft/03_product.jpg"
+        ]
+      },
+      "designDNA": {
+        "palette": [
+          "#FAF6F0",
+          "#F1E9DE",
+          "#2B211B",
+          "#6B5A4E",
+          "#C25E33",
+          "#8A3B1F"
+        ],
+        "fonts": [
+          "Fraunces",
+          "Inter"
+        ],
+        "signatureElement": "ember line",
+        "layoutSkeleton": [
+          "hero",
+          "roast-story",
+          "menu-highlights",
+          "visit",
+          "contact-footer"
+        ]
+      },
+      "agentHints": {
+        "bestFor": [
+          "coffee shops, roasters, and craft-food one-pagers that lead with warm photography",
+          "local business landing pages needing hours + contact without checkout"
+        ],
+        "avoidIf": [
+          "dark-mode required",
+          "multi-page navigation or blog content required",
+          "e-commerce checkout must live on the same page"
+        ]
+      },
+      "promptKit": "./kits/embercraft/v1.1/",
+      "updatedAt": "2026-09-02T13:40:00Z"
+    },
+    {
+      "id": "T-002",
+      "slug": "signal",
+      "name": "Signal",
+      "version": "1.0.0",
+      "language": "en",
+      "archetype": "landing",
+      "category": "landing-pages",
+      "description": "A dark SaaS one-pager for AI-agent analytics: centered hero with generated glow visual, six feature cards, three-tier pricing, FAQ accordion, and an honest email waitlist. Ships responsive at 375/768/1440.",
+      "tags": [
+        "saas",
+        "ai",
+        "analytics",
+        "dark",
+        "pricing",
+        "landing",
+        "one-page"
+      ],
+      "tier": "free",
+      "price": null,
+      "purchaseState": "not-applicable",
+      "purchaseUrl": null,
+      "license": "ByJTT Free Template License",
+      "detailPage": "./templates/signal.html",
+      "manifestUrl": "./manifests/signal.json",
+      "thumbnail": "./assets/templates/signal/card.jpg",
+      "preview": {
+        "liveUrl": null,
+        "screenshots": [
+          "./assets/templates/signal/01_hero.jpg",
+          "./assets/templates/signal/02_visual.jpg"
+        ]
+      },
+      "designDNA": {
+        "palette": [
+          "#0A0E13",
+          "#11161D",
+          "#E8ECF1",
+          "#93A0AE",
+          "#7C5CFF",
+          "#5B3FD6"
+        ],
+        "fonts": [
+          "Space Grotesk",
+          "Inter"
+        ],
+        "signatureElement": "pulse ring",
+        "layoutSkeleton": [
+          "nav",
+          "hero",
+          "features",
+          "pricing",
+          "faq",
+          "waitlist",
+          "footer"
+        ]
+      },
+      "agentHints": {
+        "bestFor": [
+          "AI/SaaS product landing pages that need pricing and FAQ on one dark page",
+          "developer-tool launches with a technical audience"
+        ],
+        "avoidIf": [
+          "warm or photography-led brands",
+          "multi-page sites with blog content"
+        ]
+      },
+      "promptKit": "./kits/signal/v1.1/",
+      "updatedAt": "2026-09-02T15:00:00Z"
+    }
+  ]
+}
