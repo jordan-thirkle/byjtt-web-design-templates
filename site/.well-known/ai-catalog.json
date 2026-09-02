@@ -1,0 +1,13 @@
+{
+  "schemaVersion": "1.0.0",
+  "name": "ByJTT Web Design Templates for Agents / AI",
+  "id": "urn:byjtt:web-design-templates",
+  "description": "One-shot unique website design templates with free and paid tiers. Machine catalog: /catalog.json; per-template contracts: /manifests/<slug>.json.",
+  "entries": [
+    { "type": "product", "name": "Embercraft", "url": "/templates/embercraft.html" }
+  ],
+  "links": [
+    { "rel": "catalog", "href": "/catalog.json" },
+    { "rel": "licensing", "href": "/licensing.html" }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "T-002",
+  "slug": "aurora-folio",
+  "name": "Aurora Folio",
+  "version": "1.0.0",
+  "language": "en",
+  "archetype": "portfolio",
+  "description": "A single-page designer portfolio with a full-bleed gradient hero, a case-study grid with hover reveals, an about strip, and a contact block with inline validation.",
+  "longDescription": "Aurora Folio targets independent designers who want one decisive page instead of a multi-page site. The hero uses a generated aurora-gradient backdrop with a two-line positioning statement; case studies open as expandable cards; the contact block ships with labeled, inline-validated form UI that degrades to a mailto link when JS is off.",
+  "tags": ["portfolio", "designer", "gradient", "one-page"],
+  "tier": "paid",
+  "price": { "amount": 29, "currency": "USD" },
+  "purchaseState": "coming-soon",
+  "purchaseUrl": null,
+  "license": "ByJTT Commercial License (see licensing.html)",
+  "entryFile": "index.html",
+  "files": [
+    { "path": "site/index.html", "bytes": 24115 },
+    { "path": "site/css/styles.css", "bytes": 9823 },
+    { "path": "site/js/main.js", "bytes": 4310 },
+    { "path": "site/assets/hero.png", "bytes": 386102 },
+    { "path": "site/assets/favicon.png", "bytes": 5210 }
+  ],
+  "assets": {
+    "og": "assets/og.png",
+    "favicon": "assets/favicon.png",
+    "card": "assets/card.png",
+    "hero": "assets/hero.png",
+    "gallery": ["assets/01_hero.png", "assets/02_work-grid.png", "assets/03_contact.png"]
+  },
+  "designDNA": {
+    "palette": ["#0E1B2C", "#F2F5FA", "#5EE0C8"],
+    "fonts": ["Space Grotesk", "IBM Plex Sans"],
+    "typeScale": "1.25 modular, clamp()-fluid",
+    "signatureElement": "aurora gradient bleed",
+    "layoutSkeleton": ["hero", "work-grid", "about", "contact"],
+    "presetAnchor": "06 Active Theory (motion-poetry school)"
+  },
+  "preview": {
+    "liveUrl": null,
+    "screenshots": ["assets/01_hero.png", "assets/02_work-grid.png"]
+  },
+  "agentHints": {
+    "bestFor": ["designer or studio portfolios that lead with generated gradient imagery"],
+    "avoidIf": ["light-theme only brands", "long-form blog content required"]
+  },
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-02",
+      "notes": "Initial release after QA + uniqueness gates."
+    }
+  ],
+  "supersededBy": null,
+  "createdAt": "2026-09-02T12:00:00Z",
+  "updatedAt": "2026-09-02T14:30:00Z"
+}
