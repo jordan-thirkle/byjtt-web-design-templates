@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-02T11:30:00Z",
+  "generatedAt": "2026-09-02T12:10:00Z",
   "marketplace": "ByJTT Web Design Templates for Agents / AI",
   "count": 1,
   "entries": [
@@ -30,7 +30,7 @@
       "manifestUrl": "./manifests/embercraft.json",
       "thumbnail": "./assets/templates/embercraft/card.jpg",
       "preview": {
-        "liveUrl": null,
+        "liveUrl": "https://jordan-thirkle.github.io/byjtt-web-design-templates/previews/embercraft/",
         "screenshots": [
           "./assets/templates/embercraft/01_hero.jpg",
           "./assets/templates/embercraft/02_story.jpg",
@@ -70,7 +70,7 @@
           "e-commerce checkout must live on the same page"
         ]
       },
-      "updatedAt": "2026-09-02T11:30:00Z"
+      "updatedAt": "2026-09-02T12:10:00Z"
     }
   ]
 }
