@@ -1,0 +1,76 @@
+/* ByJTT Web Design Templates — marketplace shared styles */
+:root {
+  --paper: #FAF6F0; --surface: #F1E9DE; --ink: #2B211B; --muted: #6B5A4E;
+  --ember: #C25E33; --ember-deep: #8A3B1F;
+  --shadow: 0 10px 30px rgba(43,33,27,0.10); --radius: 14px;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--paper); color: var(--ink); font-family: var(--font-body); font-size: 1.0625rem; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+.wrap { width: min(1080px, calc(100% - 2.5rem)); margin-inline: auto; }
+a { color: var(--ember-deep); }
+a:hover { color: var(--ink); }
+:focus-visible { outline: 2px solid var(--ember); outline-offset: 2px; border-radius: 4px; }
+.skip-link { position: absolute; left: 1rem; top: -3rem; z-index: 100; background: var(--ink); color: var(--paper); padding: 0.5rem 1rem; border-radius: 0 0 8px 8px; text-decoration: none; transition: top .2s ease; }
+.skip-link:focus { top: 0; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } html { scroll-behavior: auto; } }
+
+.site-header { position: sticky; top: 0; z-index: 50; background: rgba(250,246,240,.94); backdrop-filter: blur(8px); border-bottom: 1px solid rgba(43,33,27,.08); }
+.header-row { display: flex; align-items: center; gap: 1.25rem; min-height: 64px; flex-wrap: wrap; }
+.brand { font-family: var(--font-display); font-weight: 600; font-size: 1.2rem; color: var(--ink); text-decoration: none; display: inline-flex; align-items: center; gap: .5rem; }
+.brand-mark { width: 13px; height: 13px; border-radius: 50%; background: radial-gradient(circle at 35% 35%, var(--ember), var(--ember-deep)); }
+.site-nav { margin-left: auto; }
+.site-nav ul { display: flex; gap: 1.25rem; list-style: none; flex-wrap: wrap; }
+.site-nav a:not(.badge) { color: var(--ink); text-decoration: none; font-weight: 500; display: inline-flex; align-items: center; min-height: 44px; }
+.site-nav a:not(.badge):hover { color: var(--ember-deep); }
+
+.hero-band { padding-block: 4.5rem 3.5rem; }
+.hero-band h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(2rem, 5vw, 3.2rem); line-height: 1.12; max-width: 24ch; }
+.ember-rule { display: block; width: 110px; height: 3px; margin-top: 1rem; background: linear-gradient(90deg, var(--ember), transparent); }
+.lead { margin-top: 1rem; max-width: 62ch; color: var(--muted); font-size: 1.1rem; }
+.lead strong { color: var(--ink); }
+
+section { padding-block: 3rem; }
+h2.section-title { font-family: var(--font-display); font-weight: 600; font-size: clamp(1.6rem, 3vw, 2.1rem); }
+.ember-hair { display: block; width: 64px; height: 2px; margin-bottom: .8rem; background: linear-gradient(90deg, var(--ink), var(--ember) 55%, transparent); }
+
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2rem; }
+.grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem; }
+@media (max-width: 860px) { .grid-2 { grid-template-columns: 1fr; } }
+.card { background: #fff; border: 1px solid rgba(43,33,27,.08); border-radius: var(--radius); overflow: hidden; box-shadow: 0 4px 14px rgba(43,33,27,.06); display: flex; flex-direction: column; transition: transform .18s ease, box-shadow .18s ease; }
+.card:hover { transform: translateY(-4px); box-shadow: var(--shadow); }
+.card img.thumb { width: 100%; aspect-ratio: 3/2; object-fit: cover; display: block; background: var(--surface); }
+.card-body { padding: 1.1rem 1.2rem 1.3rem; display: flex; flex-direction: column; gap: .35rem; flex: 1; }
+.card-body h3 { font-family: var(--font-display); font-size: 1.2rem; }
+.card-meta { color: var(--muted); font-size: .88rem; }
+.card-foot { margin-top: auto; padding-top: .6rem; display: flex; align-items: center; justify-content: space-between; gap: .5rem; }
+.tier { display: inline-block; font-size: .75rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; border-radius: 999px; padding: .18rem .6rem; }
+.tier-free { background: rgba(194,94,51,.12); color: var(--ember-deep); }
+.tier-paid { background: rgba(43,33,27,.08); color: var(--ink); }
+.ghost-card { border: 1.5px dashed rgba(43,33,27,.25); border-radius: var(--radius); display: flex; align-items: center; justify-content: center; text-align: center; color: var(--muted); min-height: 240px; padding: 1.5rem; font-size: .95rem; }
+.marketplace-badge { display:inline-block; font-size:.8rem; font-weight:600; color: var(--muted); margin-left:.4rem; }
+
+.btn { display: inline-block; border-radius: 999px; padding: .65rem 1.4rem; font-weight: 600; text-decoration: none; font-size: .95rem; transition: transform .15s ease, background .15s ease, color .15s ease; }
+.btn:hover { transform: translateY(-1px); }
+.btn:active { transform: translateY(0); }
+.btn-solid { background: var(--ember); color: #fff; }
+.btn-solid:hover { background: var(--ember-deep); }
+.btn-ghost { border: 1.5px solid var(--ink); color: var(--ink); }
+.btn-ghost:hover { background: var(--ink); color: var(--paper); }
+.btn[aria-disabled="true"], .btn:disabled { opacity: .5; cursor: not-allowed; transform: none; }
+
+.band { background: var(--surface); }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; margin-top: 2rem; }
+.feature-list { list-style: none; margin-top: 1rem; display: grid; gap: .55rem; }
+.feature-list li { padding-left: 1.4rem; position: relative; }
+.feature-list li::before { content: "•"; color: var(--ember); position: absolute; left: .2rem; font-weight: 700; }
+
+.site-footer { border-top: 2px solid; border-image: linear-gradient(90deg, var(--ink), var(--ember) 55%, transparent) 1; padding-block: 2.5rem; margin-top: 2rem; }
+.footer-cols { display: flex; gap: 2rem; flex-wrap: wrap; align-items: baseline; justify-content: space-between; }
+.footer-fine { color: var(--muted); font-size: .85rem; margin-top: 1rem; }
+
+@media (max-width: 860px) {
+  .grid, .two-col { grid-template-columns: 1fr; }
+  .hero-band { padding-block: 3rem 2.5rem; }
+}

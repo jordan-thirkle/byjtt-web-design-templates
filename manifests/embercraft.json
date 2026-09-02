@@ -1,0 +1,139 @@
+{
+  "id": "T-001",
+  "slug": "embercraft",
+  "name": "Embercraft",
+  "version": "1.0.0",
+  "language": "en",
+  "archetype": "landing",
+  "description": "A one-page specialty coffee roaster template with a photography-heavy dawn hero, editorial story section with stat strip, weekly bean cards, opening hours, and a contact footer. Ships responsive at 375/768/1440 with warm-editorial generated art direction.",
+  "longDescription": "Embercraft targets independent craft businesses that want one decisive page instead of a multi-page site. The hero uses a generated dawn-roastery photograph under a paper-toned scrim; the story section pairs editorial copy with a stat strip; three bean cards carry tasting notes and prices; hours and contact close the page.",
+  "tags": [
+    "coffee",
+    "cafe",
+    "roaster",
+    "warm",
+    "editorial",
+    "one-page",
+    "landing"
+  ],
+  "tier": "free",
+  "price": null,
+  "purchaseState": "not-applicable",
+  "purchaseUrl": null,
+  "license": "ByJTT Free Template License",
+  "entryFile": "index.html",
+  "files": [
+    {
+      "path": "site/assets/favicon.png",
+      "bytes": 4822
+    },
+    {
+      "path": "site/assets/fonts/fraunces-600.woff2",
+      "bytes": 18120
+    },
+    {
+      "path": "site/assets/fonts/inter-400.woff2",
+      "bytes": 48432
+    },
+    {
+      "path": "site/assets/fonts/inter-500.woff2",
+      "bytes": 48432
+    },
+    {
+      "path": "site/assets/fonts/inter-600.woff2",
+      "bytes": 48432
+    },
+    {
+      "path": "site/assets/hero.jpg",
+      "bytes": 347463
+    },
+    {
+      "path": "site/assets/og.jpg",
+      "bytes": 125895
+    },
+    {
+      "path": "site/assets/product.jpg",
+      "bytes": 411990
+    },
+    {
+      "path": "site/assets/story.jpg",
+      "bytes": 386558
+    },
+    {
+      "path": "site/css/styles.css",
+      "bytes": 9951
+    },
+    {
+      "path": "site/index.html",
+      "bytes": 6724
+    },
+    {
+      "path": "site/js/main.js",
+      "bytes": 1592
+    }
+  ],
+  "assets": {
+    "og": "site/assets/og.jpg",
+    "favicon": "site/assets/favicon.png",
+    "card": "assets/templates/embercraft/card.jpg",
+    "hero": "site/assets/hero.jpg",
+    "gallery": [
+      "01_hero.jpg",
+      "02_story.jpg",
+      "03_product.jpg"
+    ]
+  },
+  "designDNA": {
+    "palette": [
+      "#FAF6F0",
+      "#F1E9DE",
+      "#2B211B",
+      "#6B5A4E",
+      "#C25E33",
+      "#8A3B1F"
+    ],
+    "fonts": [
+      "Fraunces",
+      "Inter"
+    ],
+    "typeScale": "fluid clamp() — h1 clamp(2.6rem, 6vw, 4.2rem), body 1.0625rem/1.7",
+    "signatureElement": "ember line",
+    "layoutSkeleton": [
+      "hero",
+      "roast-story",
+      "menu-highlights",
+      "visit",
+      "contact-footer"
+    ],
+    "presetAnchor": "18 Kenya Hara (emptiness school) with Swiss grid discipline"
+  },
+  "preview": {
+    "liveUrl": null,
+    "screenshots": [
+      "./assets/templates/embercraft/01_hero.jpg",
+      "./assets/templates/embercraft/02_story.jpg",
+      "./assets/templates/embercraft/03_product.jpg"
+    ]
+  },
+  "agentHints": {
+    "bestFor": [
+      "coffee shops, roasters, and craft-food one-pagers that lead with warm photography",
+      "local business landing pages needing hours + contact without checkout"
+    ],
+    "avoidIf": [
+      "dark-mode required",
+      "multi-page navigation or blog content required",
+      "e-commerce checkout must live on the same page"
+    ]
+  },
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-02",
+      "notes": "Initial release after QA + uniqueness gates; first template published through the studio gauntlet."
+    }
+  ],
+  "supersededBy": null,
+  "createdAt": "2026-09-02T09:30:00Z",
+  "updatedAt": "2026-09-02T11:30:00Z"
+}

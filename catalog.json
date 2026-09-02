@@ -1,0 +1,76 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-02T11:30:00Z",
+  "marketplace": "ByJTT Web Design Templates for Agents / AI",
+  "count": 1,
+  "entries": [
+    {
+      "id": "T-001",
+      "slug": "embercraft",
+      "name": "Embercraft",
+      "version": "1.0.0",
+      "language": "en",
+      "archetype": "landing",
+      "description": "A one-page specialty coffee roaster template with a photography-heavy dawn hero, editorial story section with stat strip, weekly bean cards, opening hours, and a contact footer. Ships responsive at 375/768/1440 with warm-editorial generated art direction.",
+      "tags": [
+        "coffee",
+        "cafe",
+        "roaster",
+        "warm",
+        "editorial",
+        "one-page",
+        "landing"
+      ],
+      "tier": "free",
+      "price": null,
+      "purchaseState": "not-applicable",
+      "purchaseUrl": null,
+      "license": "ByJTT Free Template License",
+      "detailPage": "./templates/embercraft.html",
+      "manifestUrl": "./manifests/embercraft.json",
+      "thumbnail": "./assets/templates/embercraft/card.jpg",
+      "preview": {
+        "liveUrl": null,
+        "screenshots": [
+          "./assets/templates/embercraft/01_hero.jpg",
+          "./assets/templates/embercraft/02_story.jpg",
+          "./assets/templates/embercraft/03_product.jpg"
+        ]
+      },
+      "designDNA": {
+        "palette": [
+          "#FAF6F0",
+          "#F1E9DE",
+          "#2B211B",
+          "#6B5A4E",
+          "#C25E33",
+          "#8A3B1F"
+        ],
+        "fonts": [
+          "Fraunces",
+          "Inter"
+        ],
+        "signatureElement": "ember line",
+        "layoutSkeleton": [
+          "hero",
+          "roast-story",
+          "menu-highlights",
+          "visit",
+          "contact-footer"
+        ]
+      },
+      "agentHints": {
+        "bestFor": [
+          "coffee shops, roasters, and craft-food one-pagers that lead with warm photography",
+          "local business landing pages needing hours + contact without checkout"
+        ],
+        "avoidIf": [
+          "dark-mode required",
+          "multi-page navigation or blog content required",
+          "e-commerce checkout must live on the same page"
+        ]
+      },
+      "updatedAt": "2026-09-02T11:30:00Z"
+    }
+  ]
+}
