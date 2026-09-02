@@ -6,6 +6,7 @@
 - Freshness storytelling (roast-date promise, peak-flavor education) and eyebrow micro-labels
 - Visit section: transit + parking detail
 - MINOR bump: new section added inside the same design direction
+- Mobile fix from gauntlet round 2: subscription grid collapses to one column at 375px (24px overflow eliminated)
 
 ## 1.0.0 — 2026-09-02
 - Initial release: one-page roaster template (hero, story, beans, visit, contact).
