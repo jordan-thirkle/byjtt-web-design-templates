@@ -108,7 +108,7 @@
     "presetAnchor": "18 Kenya Hara (emptiness school) with Swiss grid discipline"
   },
   "preview": {
-    "liveUrl": "https://jordan-thirkle.github.io/byjtt-web-design-templates/previews/embercraft/",
+    "liveUrl": "https://byjtt-templates.pages.dev/previews/embercraft/",
     "screenshots": [
       "./assets/templates/embercraft/01_hero.jpg",
       "./assets/templates/embercraft/02_story.jpg",
@@ -135,5 +135,5 @@
   ],
   "supersededBy": null,
   "createdAt": "2026-09-02T09:30:00Z",
-  "updatedAt": "2026-09-02T13:00:00Z"
+  "updatedAt": "2026-09-02T12:40:00Z"
 }

@@ -7,17 +7,17 @@
     {
       "type": "product",
       "name": "Embercraft",
-      "url": "https://jordan-thirkle.github.io/byjtt-web-design-templates/templates/embercraft.html"
+      "url": "https://byjtt-templates.pages.dev/templates/embercraft.html"
     }
   ],
   "links": [
     {
       "rel": "catalog",
-      "href": "https://jordan-thirkle.github.io/byjtt-web-design-templates/catalog.json"
+      "href": "https://byjtt-templates.pages.dev/catalog.json"
     },
     {
       "rel": "licensing",
-      "href": "https://jordan-thirkle.github.io/byjtt-web-design-templates/licensing.html"
+      "href": "https://byjtt-templates.pages.dev/licensing.html"
     }
   ]
 }

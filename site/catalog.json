@@ -1,7 +1,8 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-02T13:00:00Z",
+  "generatedAt": "2026-09-02T12:40:00Z",
   "marketplace": "ByJTT Web Design Templates for Agents / AI",
+  "canonicalUrl": "https://byjtt-templates.pages.dev",
   "categories": [
     "landing-pages",
     "portfolio",
@@ -40,7 +41,7 @@
       "manifestUrl": "./manifests/embercraft.json",
       "thumbnail": "./assets/templates/embercraft/card.jpg",
       "preview": {
-        "liveUrl": "https://jordan-thirkle.github.io/byjtt-web-design-templates/previews/embercraft/",
+        "liveUrl": "https://byjtt-templates.pages.dev/previews/embercraft/",
         "screenshots": [
           "./assets/templates/embercraft/01_hero.jpg",
           "./assets/templates/embercraft/02_story.jpg",
@@ -80,7 +81,7 @@
           "e-commerce checkout must live on the same page"
         ]
       },
-      "updatedAt": "2026-09-02T13:00:00Z"
+      "updatedAt": "2026-09-02T12:40:00Z"
     }
   ]
 }

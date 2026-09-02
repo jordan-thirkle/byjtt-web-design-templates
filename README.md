@@ -2,7 +2,7 @@
 
 A design studio on AI rails. A reusable agent skill turns a one-line brief into a **finished, unique, one-shot website design** — generated imagery, real copy, responsive and accessible — then publishes it to a static marketplace that **humans browse and AI agents read as data**.
 
-- Live marketplace: https://jordan-thirkle.github.io/byjtt-web-design-templates (GitHub Pages; Cloudflare Pages migration ready — see below)
+- Live marketplace: https://byjtt-templates.pages.dev (Cloudflare Pages, canonical) · custom domain: https://templates.byjtt.com · mirror: https://jordan-thirkle.github.io/byjtt-web-design-templates
 - Machine catalog: [`site/catalog.json`](site/catalog.json) · agent discovery: [`site/.well-known/ai-catalog.json`](site/.well-known/ai-catalog.json)
 
 ## Repo map
