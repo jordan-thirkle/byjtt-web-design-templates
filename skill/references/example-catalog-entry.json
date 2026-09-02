@@ -1,0 +1,45 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-09-02T14:30:00Z",
+  "marketplace": "ByJTT Web Design Templates for Agents / AI",
+  "count": 1,
+  "entries": [
+    {
+      "id": "T-001",
+      "slug": "ember-bistro",
+      "name": "Ember Bistro",
+      "version": "1.0.0",
+      "language": "en",
+      "archetype": "restaurant",
+      "description": "A one-page restaurant template with a photography-heavy hero, menu highlights, an origin story section, opening hours, and a reservation contact block. Ships responsive at 375/768/1440 with a warm editorial art direction.",
+      "tags": ["restaurant", "cafe", "warm", "editorial", "one-page"],
+      "tier": "free",
+      "price": null,
+      "purchaseState": "not-applicable",
+      "purchaseUrl": null,
+      "license": "ByJTT Free Template License (see licensing.html)",
+      "detailPage": "./templates/ember-bistro.html",
+      "manifestUrl": "./manifests/ember-bistro.json",
+      "thumbnail": "./assets/templates/ember-bistro/card.png",
+      "preview": {
+        "liveUrl": null,
+        "screenshots": [
+          "./assets/templates/ember-bistro/01_hero.png",
+          "./assets/templates/ember-bistro/02_menu.png",
+          "./assets/templates/ember-bistro/03_story.png"
+        ]
+      },
+      "designDNA": {
+        "palette": ["#2B1D16", "#F6EFE6", "#C96F3B"],
+        "fonts": ["Fraunces", "Inter"],
+        "signatureElement": "ember-glow divider",
+        "layoutSkeleton": ["hero", "menu-highlights", "story", "hours", "contact"]
+      },
+      "agentHints": {
+        "bestFor": ["restaurant or cafe one-pagers with photography-heavy heroes"],
+        "avoidIf": ["dark-mode required", "multi-page navigation needed"]
+      },
+      "updatedAt": "2026-09-02T14:30:00Z"
+    }
+  ]
+}

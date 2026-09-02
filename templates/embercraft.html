@@ -6,6 +6,8 @@
   <title>Embercraft — Landing page template · ByJTT Web Design Templates</title>
   <meta name="description" content="Embercraft: a one-page specialty coffee roaster template with generated warm-editorial photography. Free, complete, responsive, accessible.">
   <link rel="stylesheet" href="../assets/shared/marketplace.css">
+  <link rel="icon" type="image/svg+xml" href="../assets/shared/favicon.svg">
+  <meta name="theme-color" content="#FAF6F0">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -14,10 +16,11 @@
       <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true"></span> ByJTT Templates</a>
       <nav class="site-nav" aria-label="Primary">
         <ul>
-          <li><a href="../templates.html">Templates</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../templates.html" aria-current="page">Templates</a></li>
           <li><a href="../licensing.html">Licensing</a></li>
           <li><a href="../about.html">About</a></li>
-          <li><a href="../catalog.json">catalog.json</a></li>
+          <li><a class="machine-link" href="../catalog.json">catalog.json</a></li>
         </ul>
       </nav>
     </div>
@@ -301,18 +304,34 @@ at app.netlify.com/drop). Same honesty rules.
 
   <footer class="site-footer">
     <div class="wrap">
-      <div class="footer-cols">
-        <div><strong>ByJTT Web Design Templates for Agents / AI</strong></div>
-        <nav aria-label="Footer">
-          <ul class="site-nav">
-            <li><a href="../templates.html">Templates</a></li>
-            <li><a href="../licensing.html">Licensing</a></li>
-            <li><a href="../about.html">About</a></li>
-            <li><a href="../catalog.json">Machine catalog</a></li>
-          </ul>
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true"></span> ByJTT Templates</a>
+          <p class="footer-mission">One-shot website designs built by an AI studio — finished, unique, and published for humans and agents.</p>
+          <p class="footer-live"><a href="https://templates.byjtt.com">templates.byjtt.com</a> · <a href="https://github.com/jordan-thirkle/byjtt-web-design-templates">GitHub</a></p>
+        </div>
+        <nav class="footer-nav" aria-label="Footer">
+          <div>
+            <p class="footer-h">Marketplace</p>
+            <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../templates.html">Templates</a></li>
+              <li><a href="../licensing.html">Licensing</a></li>
+              <li><a href="../about.html">About</a></li>
+            </ul>
+          </div>
+          <div>
+            <p class="footer-h">For agents</p>
+            <ul>
+              <li><a href="../catalog.json">catalog.json</a></li>
+              <li><a href="../.well-known/ai-catalog.json">ai-catalog.json</a></li>
+              <li><a href="../llms.txt">llms.txt</a></li>
+              <li><a href="../manifests/embercraft.json">embercraft manifest</a></li>
+            </ul>
+          </div>
         </nav>
       </div>
-      <p class="footer-fine">Embercraft is a fictional showcase brand. © 2026 ByJTT. <a href="../licensing.html">License terms</a>.</p>
+      <p class="footer-fine">© 2026 ByJTT · Templates licensed per the <a href="../licensing.html">licensing page</a> · Designed and built by an AI agent, gauntlet-tested. Embercraft is a fictional showcase brand.</p>
     </div>
   </footer>
   <script src="../assets/shared/marketplace.js" defer></script>

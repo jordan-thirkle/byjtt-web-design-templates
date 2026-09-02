@@ -1,0 +1,181 @@
+{
+  "schemaVersion": "1.0.0",
+  "idCounter": 1,
+  "marketplace": {
+    "name": "ByJTT Web Design Templates for Agents / AI"
+  },
+  "deployment": {
+    "projectId": null,
+    "folderName": null,
+    "entryFile": "index.html",
+    "projectsJsonPath": null,
+    "state": "active",
+    "lastUrl": "https://byjtt-templates.pages.dev/",
+    "deployedAt": "2026-09-02T12:40:00Z",
+    "provider": "cloudflare-pages",
+    "note": "Canonical marketplace on Cloudflare Pages (custom domain templates.byjtt.com, CNAME proxied). GitHub Pages remains a full mirror. Deploy command: scripts/deploy-cloudflare.sh",
+    "customDomain": "templates.byjtt.com",
+    "mirror": "https://jordan-thirkle.github.io/byjtt-web-design-templates/"
+  },
+  "templates": [
+    {
+      "id": "T-001",
+      "slug": "embercraft",
+      "name": "Embercraft",
+      "version": "1.1.0",
+      "language": "en",
+      "archetype": "landing",
+      "description": "A one-page specialty coffee roaster template with a photography-heavy dawn hero, editorial story with freshness promise, cafe-grade bean cards (origin, process, roast level, tasting-note chips, prices, roast-week badge), a dark subscription band with cadence options and an honest email CTA, opening hours, and a contact footer. Ships responsive at 375/768/1440 with warm-editorial generated art direction.",
+      "longDescription": "Embercraft targets independent craft businesses that want one decisive page instead of a multi-page site. The hero uses a generated dawn-roastery photograph under a paper scrim; the story section pairs editorial copy with a stat strip; bean cards carry cafe-grade data — origin, process, roast level, tasting-note chips, prices and a roast-week badge — over generated bag photography; a dark band presents subscription cadences with an honest email-start flow; hours and contact close the page. Typography pairs Fraunces with Inter on a Kenya-Hara-anchored whitespace rhythm; the signature 'ember line' recurs throughout.",
+      "tags": [
+        "coffee",
+        "cafe",
+        "roaster",
+        "warm",
+        "editorial",
+        "one-page",
+        "landing"
+      ],
+      "tier": "free",
+      "price": null,
+      "purchaseState": "not-applicable",
+      "purchaseUrl": null,
+      "license": "ByJTT Free Template License",
+      "entryFile": "index.html",
+      "files": [
+        {
+          "path": "site/assets/bag-dawn.jpg",
+          "bytes": 147703
+        },
+        {
+          "path": "site/assets/bag-ember.jpg",
+          "bytes": 183268
+        },
+        {
+          "path": "site/assets/bag-midnight.jpg",
+          "bytes": 87780
+        },
+        {
+          "path": "site/assets/favicon.png",
+          "bytes": 4822
+        },
+        {
+          "path": "site/assets/fonts/fraunces-600.woff2",
+          "bytes": 18120
+        },
+        {
+          "path": "site/assets/fonts/inter-400.woff2",
+          "bytes": 48432
+        },
+        {
+          "path": "site/assets/fonts/inter-500.woff2",
+          "bytes": 48432
+        },
+        {
+          "path": "site/assets/fonts/inter-600.woff2",
+          "bytes": 48432
+        },
+        {
+          "path": "site/assets/hero.jpg",
+          "bytes": 347463
+        },
+        {
+          "path": "site/assets/og.jpg",
+          "bytes": 125895
+        },
+        {
+          "path": "site/assets/product.jpg",
+          "bytes": 411990
+        },
+        {
+          "path": "site/assets/story.jpg",
+          "bytes": 386558
+        },
+        {
+          "path": "site/css/styles.css",
+          "bytes": 12546
+        },
+        {
+          "path": "site/index.html",
+          "bytes": 10664
+        },
+        {
+          "path": "site/js/main.js",
+          "bytes": 2320
+        }
+      ],
+      "assets": {
+        "og": "site/assets/og.jpg",
+        "favicon": "site/assets/favicon.png",
+        "card": "assets/templates/embercraft/card.jpg",
+        "hero": "site/assets/hero.jpg",
+        "gallery": [
+          "01_hero.jpg",
+          "02_story.jpg",
+          "03_product.jpg"
+        ]
+      },
+      "designDNA": {
+        "palette": [
+          "#FAF6F0",
+          "#F1E9DE",
+          "#2B211B",
+          "#6B5A4E",
+          "#C25E33",
+          "#8A3B1F"
+        ],
+        "fonts": [
+          "Fraunces",
+          "Inter"
+        ],
+        "typeScale": "fluid clamp() — h1 clamp(2.6rem, 6vw, 4.2rem), body 1.0625rem/1.7",
+        "signatureElement": "ember line",
+        "layoutSkeleton": [
+          "hero",
+          "roast-story",
+          "menu-highlights",
+          "visit",
+          "contact-footer"
+        ],
+        "presetAnchor": "18 Kenya Hara (emptiness school) with Swiss grid discipline"
+      },
+      "preview": {
+        "liveUrl": "https://byjtt-templates.pages.dev/previews/embercraft/",
+        "screenshots": [
+          "./assets/templates/embercraft/01_hero.jpg",
+          "./assets/templates/embercraft/02_story.jpg",
+          "./assets/templates/embercraft/03_product.jpg"
+        ]
+      },
+      "agentHints": {
+        "bestFor": [
+          "coffee shops, roasters, and craft-food one-pagers that lead with warm photography",
+          "local business landing pages needing hours + contact without checkout"
+        ],
+        "avoidIf": [
+          "dark-mode required",
+          "multi-page navigation or blog content required",
+          "e-commerce checkout must live on the same page"
+        ]
+      },
+      "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-09-02",
+          "notes": "Benchmark-driven refinements: cafe-grade product cards with bag photography, subscription cadence band with honest email CTA, freshness storytelling, eyebrow micro-labels, visit/transit detail."
+        },
+        {
+          "version": "1.0.0",
+          "date": "2026-09-02",
+          "notes": "Initial release after QA + uniqueness gates; first template published through the studio gauntlet."
+        }
+      ],
+      "supersededBy": null,
+      "createdAt": "2026-09-02T09:30:00Z",
+      "updatedAt": "2026-09-02T13:40:00Z",
+      "status": "deployed",
+      "releaseState": "published",
+      "promptKit": "./kits/embercraft/v1.1/"
+    }
+  ]
+}
