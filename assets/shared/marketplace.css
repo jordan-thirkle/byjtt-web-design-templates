@@ -74,3 +74,35 @@ h2.section-title { font-family: var(--font-display); font-weight: 600; font-size
   .grid, .two-col { grid-template-columns: 1fr; }
   .hero-band { padding-block: 3rem 2.5rem; }
 }
+
+/* ---------- prompt kit ---------- */
+.prompt-block {
+  border: 1px solid rgba(43,33,27,.12); border-radius: var(--radius);
+  margin-top: 1rem; background: #fff; overflow: hidden;
+}
+.prompt-block summary {
+  display: flex; align-items: center; gap: .8rem; flex-wrap: wrap;
+  padding: .9rem 1.1rem; cursor: pointer; list-style: none;
+}
+.prompt-block summary::-webkit-details-marker { display: none; }
+.prompt-title { font-family: var(--font-display); font-weight: 600; font-size: 1.05rem; }
+.prompt-blurb { color: var(--muted); font-size: .85rem; flex: 1 1 200px; }
+.prompt-block[open] { border-color: rgba(194,94,51,.4); }
+.prompt-meta { font-size: .8rem; color: var(--muted); padding: 0 1.1rem .6rem; }
+.prompt-meta a { color: var(--ember-deep); }
+.prompt-block pre {
+  margin: 0 1.1rem 1.1rem; padding: 1rem; background: var(--ink); color: var(--paper);
+  border-radius: 10px; overflow: auto; max-height: 320px;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: .8rem; line-height: 1.55;
+  white-space: pre-wrap; word-break: break-word;
+}
+.copy-btn {
+  margin-left: auto; border: 1.5px solid var(--ink); background: transparent; color: var(--ink);
+  border-radius: 999px; padding: .3rem .9rem; font-weight: 600; font-size: .8rem; cursor: pointer;
+  transition: background .15s ease, color .15s ease;
+}
+.copy-btn:hover { background: var(--ink); color: var(--paper); }
+.copy-btn[disabled] { opacity: .6; cursor: default; }
+.token-legend { color: var(--muted); font-size: .85rem; margin-top: .6rem; }
+.token-legend code { background: var(--surface); border-radius: 6px; padding: .1rem .35rem; }
+.visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
