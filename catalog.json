@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-02T15:57:41Z",
+  "generatedAt": "2026-09-04T00:22:00Z",
   "marketplace": "ByJTT Web Design Templates for Agents / AI",
   "canonicalUrl": "https://byjtt-templates.pages.dev",
   "categories": [
@@ -91,7 +91,7 @@
       "version": "1.0.0",
       "language": "en",
       "archetype": "landing",
-      "category": "landing-pages",
+      "category": "saas",
       "description": "A dark SaaS one-pager for AI-agent analytics: centered hero with generated glow visual, six feature cards, three-tier pricing, FAQ accordion, and an honest email waitlist. Ships responsive at 375/768/1440.",
       "tags": [
         "saas",
@@ -111,7 +111,7 @@
       "manifestUrl": "./manifests/signal.json",
       "thumbnail": "./assets/templates/signal/card.jpg",
       "preview": {
-        "liveUrl": null,
+        "liveUrl": "https://byjtt-templates.pages.dev/previews/signal/",
         "screenshots": [
           "./assets/templates/signal/01_hero.jpg",
           "./assets/templates/signal/02_visual.jpg"
@@ -152,7 +152,7 @@
         ]
       },
       "promptKit": "./kits/signal/v1.1/",
-      "updatedAt": "2026-09-02T15:00:00Z"
+      "updatedAt": "2026-09-04T01:25:00Z"
     }
   ]
 }
