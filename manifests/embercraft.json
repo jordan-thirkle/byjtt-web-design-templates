@@ -44,15 +44,7 @@
       "bytes": 18120
     },
     {
-      "path": "site/assets/fonts/inter-400.woff2",
-      "bytes": 48432
-    },
-    {
-      "path": "site/assets/fonts/inter-500.woff2",
-      "bytes": 48432
-    },
-    {
-      "path": "site/assets/fonts/inter-600.woff2",
+      "path": "site/assets/fonts/inter-var.woff2",
       "bytes": 48432
     },
     {
@@ -73,7 +65,7 @@
     },
     {
       "path": "site/css/styles.css",
-      "bytes": 12546
+      "bytes": 12262
     },
     {
       "path": "site/index.html",
@@ -153,5 +145,6 @@
   "supersededBy": null,
   "createdAt": "2026-09-02T09:30:00Z",
   "updatedAt": "2026-09-02T13:40:00Z",
-  "promptKit": "./kits/embercraft/v1.1/"
+  "promptKit": "./kits/embercraft/v1.1/",
+  "category": "landing-pages"
 }
