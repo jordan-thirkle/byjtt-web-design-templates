@@ -44,15 +44,7 @@
       "bytes": 18120
     },
     {
-      "path": "site/assets/fonts/inter-400.woff2",
-      "bytes": 48432
-    },
-    {
-      "path": "site/assets/fonts/inter-500.woff2",
-      "bytes": 48432
-    },
-    {
-      "path": "site/assets/fonts/inter-600.woff2",
+      "path": "site/assets/fonts/inter-var.woff2",
       "bytes": 48432
     },
     {
@@ -73,7 +65,7 @@
     },
     {
       "path": "site/css/styles.css",
-      "bytes": 12546
+      "bytes": 12262
     },
     {
       "path": "site/index.html",

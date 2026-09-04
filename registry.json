@@ -64,15 +64,7 @@
           "bytes": 18120
         },
         {
-          "path": "site/assets/fonts/inter-400.woff2",
-          "bytes": 48432
-        },
-        {
-          "path": "site/assets/fonts/inter-500.woff2",
-          "bytes": 48432
-        },
-        {
-          "path": "site/assets/fonts/inter-600.woff2",
+          "path": "site/assets/fonts/inter-var.woff2",
           "bytes": 48432
         },
         {
@@ -93,7 +85,7 @@
         },
         {
           "path": "site/css/styles.css",
-          "bytes": 12546
+          "bytes": 12262
         },
         {
           "path": "site/index.html",
@@ -205,8 +197,8 @@
       "entryFile": "index.html",
       "files": [
         {
-          "path": "site/assets/card.jpg",
-          "bytes": 71019
+          "path": "site/assets/favicon.svg",
+          "bytes": 363
         },
         {
           "path": "site/assets/fonts/inter-400.woff2",
@@ -221,15 +213,11 @@
           "bytes": 48432
         },
         {
-          "path": "site/assets/fonts/spacegrotesk-500.woff2",
-          "bytes": 22320
+          "path": "site/assets/fonts/inter-var.woff2",
+          "bytes": 48432
         },
         {
-          "path": "site/assets/fonts/spacegrotesk-600.woff2",
-          "bytes": 22320
-        },
-        {
-          "path": "site/assets/fonts/spacegrotesk-700.woff2",
+          "path": "site/assets/fonts/spacegrotesk-var.woff2",
           "bytes": 22320
         },
         {
@@ -246,7 +234,7 @@
         },
         {
           "path": "site/css/styles.css",
-          "bytes": 8988
+          "bytes": 8422
         },
         {
           "path": "site/index.html",

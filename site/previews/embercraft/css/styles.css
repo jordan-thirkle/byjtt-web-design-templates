@@ -60,22 +60,8 @@ body {
 }
 @font-face {
   font-family: "Inter";
-  src: url("../assets/fonts/inter-400.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Inter";
-  src: url("../assets/fonts/inter-500.woff2") format("woff2");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Inter";
-  src: url("../assets/fonts/inter-600.woff2") format("woff2");
-  font-weight: 600;
+  src: url("../assets/fonts/inter-var.woff2") format("woff2");
+  font-weight: 400 600;
   font-style: normal;
   font-display: swap;
 }

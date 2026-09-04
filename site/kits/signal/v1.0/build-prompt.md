@@ -26,8 +26,8 @@ and never end by telling me to run commands myself — do the work, then show me
 ## Steps
 1. Download the template package:
    `curl -L -o signal.zip https://byjtt-templates.pages.dev/assets/templates/signal/downloads/signal-v1.0.0.zip`
-   and unzip it into a folder called `site`.
-2. Read `manifest.json` inside the package first — it is the binding contract: the file
+   and unzip it — a folder named `signal/` will appear; that folder is your working directory.
+2. The package also contains `manifest.json` (the binding spec), `LICENSE.txt`, and a `README.md`. Read `manifest.json` first — it is the binding contract: the file
    inventory, design tokens (palette #0A0E13 / #7C5CFF violet, Space Grotesk + Inter,
    pulse-ring signature), page structure (hero, features, pricing, FAQ, waitlist), and the
    license summary. Personalize; don't redesign.

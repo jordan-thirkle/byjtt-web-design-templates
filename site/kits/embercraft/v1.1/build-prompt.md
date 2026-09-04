@@ -27,8 +27,8 @@ and never end by telling me to run commands myself — do the work, then show me
 ## Steps
 1. Download the template package:
    `curl -L -o embercraft.zip https://byjtt-templates.pages.dev/assets/templates/embercraft/downloads/embercraft-v1.1.0.zip`
-   and unzip it into a folder called `site`.
-2. Read `manifest.json` inside the package first. It is the binding contract: the file
+   and unzip it — a folder named `embercraft/` will appear; that folder is your working directory.
+2. The package also contains `manifest.json` (the binding spec), `LICENSE.txt`, and a `README.md`. Read `manifest.json` first. It is the binding contract: the file
    inventory, design tokens (palette, fonts, signature element), page structure, and the
    license summary. Follow it — don't redesign the template, personalize it.
 3. Replace every `[YOUR-…]` placeholder in the copy with my inputs above, and log each
