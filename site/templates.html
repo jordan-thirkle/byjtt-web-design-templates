@@ -3,11 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Templates — ByJTT Web Design Templates</title>
-  <meta name="description" content="Browse the ByJTT template catalog: unique one-shot website designs, free and paid, with live previews and agent-readable manifests.">
-  <link rel="stylesheet" href="assets/shared/marketplace.css">
+  <title>Explore templates — ByJTT Web Design Templates</title>
+  <meta name="description" content="Explore the ByJTT template library: unique one-shot website designs with full specs, live previews and agent prompt kits.">
   <link rel="icon" type="image/svg+xml" href="assets/shared/favicon.svg">
-  <meta name="theme-color" content="#FAF6F0">
+  <link rel="stylesheet" href="assets/shared/marketplace.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -17,7 +16,7 @@
       <nav class="site-nav" aria-label="Primary">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="templates.html" aria-current="page">Templates</a></li>
+          <li><a href="templates.html" aria-current="page">Explore</a></li>
           <li><a href="licensing.html">Licensing</a></li>
           <li><a href="about.html">About</a></li>
           <li><a class="machine-link" href="catalog.json">catalog.json</a></li>
@@ -29,31 +28,55 @@
   <main id="main">
     <section class="hero-band">
       <div class="wrap">
-        <h1>Template catalog</h1>
+        <h1>Explore the library</h1>
         <span class="ember-rule" aria-hidden="true"></span>
-        <p class="lead">Every entry below passed QA and a uniqueness check against the rest of the catalog. Machine-readable mirror: <a href="catalog.json">catalog.json</a>.</p>
+        <p class="lead">Every resource below passed the studio gauntlet and a uniqueness diff against the whole catalog. Full specs on every page — nothing half-finished gets listed.</p>
       </div>
     </section>
 
     <section aria-labelledby="all-title">
       <div class="wrap">
-        <h2 class="section-title" id="all-title">All templates (1)</h2>
-        <div class="grid">
-          <article class="card">
-            <img class="thumb" src="assets/templates/embercraft/card.jpg" alt="Embercraft template cover: a coffee cup on a wooden counter in warm morning light" loading="lazy">
-            <div class="card-body">
-              <h3>Embercraft</h3>
-              <p class="card-meta">Landing page · specialty coffee roaster · warm editorial · English · v1.0.0</p>
-              <div class="card-foot">
-                <span class="tier tier-free">Free</span>
-                <a class="btn btn-ghost" href="templates/embercraft.html">View template</a>
-              </div>
-            </div>
-          </article>
-          <div class="ghost-card" role="note">
-            <p>The next slot is reserved. Templates publish here as they pass the studio gauntlet — nothing half-finished gets listed.</p>
+        <div class="filter-bar" role="group" aria-label="Filter resources">
+          <div class="filter-group"><span class="filter-label">Type</span><button class="filter-btn is-on" data-filter-cat="all">All</button><button class="filter-btn" data-filter-cat="landing">Landing</button><button class="filter-btn" data-filter-cat="saas">Saas</button></div>
+          <div class="filter-group"><span class="filter-label">Tier</span><button class="filter-btn is-on" data-filter-tier="all">All</button><button class="filter-btn" data-filter-tier="free">Free</button><button class="filter-btn" data-filter-tier="paid">Paid</button></div>
+        </div>
+        <div class="res-grid-lib" id="res-grid">
+      <article class="res-card" data-cat="" data-tier="free">
+        <a class="res-thumb" href="templates/embercraft.html"><img src="assets/templates/embercraft/card.jpg" alt="Embercraft cover" loading="lazy"></a>
+        <div class="res-body">
+          <div class="res-row1"><h3><a href="templates/embercraft.html">Embercraft</a></h3><span class="tier tier-free">Free</span></div>
+          <p class="res-tag">A warm editorial one-pager for specialty coffee roasters</p>
+          <div class="res-meta">
+            <span><svg class="i" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l6 3.5v7L8 15 2 11.5v-7L8 1z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M2 4.5L8 8l6-3.5M8 8v7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg> v1.1.0</span>
+            <span><svg class="i" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l7 4-7 4-7-4 7-4z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M1 9.5l7 4 7-4M1 12.5l7 4 7-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" opacity=".55"/></svg> 15 files</span>
+            <span><svg class="i" viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="8" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M4 13h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg> 1.80 MB</span>
+            <span><svg class="i" viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="3" width="12" height="11" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M2 6.5h12M5.5 1.5v3m5-3v3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg> 2026-09-02</span>
+          </div>
+          <div class="res-foot">
+            <span class="res-cat-chip"></span>
+            <a class="btn btn-ghost btn-sm" href="templates/embercraft.html">View resource</a>
           </div>
         </div>
+      </article>
+      <article class="res-card" data-cat="saas" data-tier="free">
+        <a class="res-thumb" href="templates/signal.html"><img src="assets/templates/signal/card.jpg" alt="Signal cover" loading="lazy"></a>
+        <div class="res-body">
+          <div class="res-row1"><h3><a href="templates/signal.html">Signal</a></h3><span class="tier tier-free">Free</span></div>
+          <p class="res-tag">A dark technical one-pager for AI-agent analytics SaaS</p>
+          <div class="res-meta">
+            <span><svg class="i" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l6 3.5v7L8 15 2 11.5v-7L8 1z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M2 4.5L8 8l6-3.5M8 8v7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg> v1.0.0</span>
+            <span><svg class="i" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 1l7 4-7 4-7-4 7-4z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M1 9.5l7 4 7-4M1 12.5l7 4 7-4" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" opacity=".55"/></svg> 13 files</span>
+            <span><svg class="i" viewBox="0 0 16 16" aria-hidden="true"><rect x="1.5" y="2.5" width="13" height="8" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M4 13h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg> 661 KB</span>
+            <span><svg class="i" viewBox="0 0 16 16" aria-hidden="true"><rect x="2" y="3" width="12" height="11" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M2 6.5h12M5.5 1.5v3m5-3v3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg> 2026-09-04</span>
+          </div>
+          <div class="res-foot">
+            <span class="res-cat-chip">saas</span>
+            <a class="btn btn-ghost btn-sm" href="templates/signal.html">View resource</a>
+          </div>
+        </div>
+      </article>
+        </div>
+        <p class="empty-note" id="res-empty" hidden>No resources match those filters yet.</p>
       </div>
     </section>
   </main>
@@ -71,7 +94,7 @@
             <p class="footer-h">Marketplace</p>
             <ul>
               <li><a href="index.html">Home</a></li>
-              <li><a href="templates.html">Templates</a></li>
+              <li><a href="templates.html">Explore</a></li>
               <li><a href="licensing.html">Licensing</a></li>
               <li><a href="about.html">About</a></li>
             </ul>
@@ -87,8 +110,10 @@
           </div>
         </nav>
       </div>
-      <p class="footer-fine">© 2026 ByJTT · Templates licensed per the <a href="licensing.html">licensing page</a> · Designed and built by an AI agent, gauntlet-tested.</p>
+      <p class="footer-fine">© 2026 ByJTT · Templates licensed per the <a href="licensing.html">licensing page</a>.</p>
     </div>
   </footer>
+
+  <script src="assets/shared/marketplace.js" defer></script>
 </body>
 </html>

@@ -42,3 +42,34 @@
     });
   });
 })();
+
+// Explore filters (progressive: no-JS shows everything)
+(function () {
+  "use strict";
+  var cat = "all", tier = "all";
+  var cards = document.querySelectorAll(".res-card[data-cat]");
+  var empty = document.getElementById("res-empty");
+  function apply() {
+    var shown = 0;
+    cards.forEach(function (c) {
+      var ok = (cat === "all" || c.getAttribute("data-cat") === cat) &&
+               (tier === "all" || c.getAttribute("data-tier") === tier);
+      c.hidden = !ok;
+      if (ok) shown++;
+    });
+    if (empty) empty.hidden = shown !== 0;
+  }
+  document.querySelectorAll(".filter-btn").forEach(function (b) {
+    b.addEventListener("click", function () {
+      if (b.hasAttribute("data-filter-cat")) {
+        cat = b.getAttribute("data-filter-cat");
+        document.querySelectorAll("[data-filter-cat]").forEach(function (x) { x.classList.toggle("is-on", x === b); });
+      }
+      if (b.hasAttribute("data-filter-tier")) {
+        tier = b.getAttribute("data-filter-tier");
+        document.querySelectorAll("[data-filter-tier]").forEach(function (x) { x.classList.toggle("is-on", x === b); });
+      }
+      apply();
+    });
+  });
+})();
