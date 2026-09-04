@@ -123,8 +123,10 @@ for e in reg["templates"]:
         fact_row("box", "Template ID", man["id"]),
     ])
 
-    kit_files = sorted(os.listdir(f"{B}/site/kits/{slug}/v1.1"))
-    kit_links = "".join(f'<li><a href="../kits/{slug}/v1.1/{f}" download>{f}</a></li>' for f in kit_files if f.endswith(".md"))
+    kit_rel = e.get("promptKit", f"./kits/{slug}/v1.0/").lstrip("./")
+    kit_dir = f"{B}/site/{kit_rel}"
+    kit_files = sorted(os.listdir(kit_dir))
+    kit_links = "".join(f'<li><a href="../{kit_rel}{f}" download>{f}</a></li>' for f in kit_files if f.endswith(".md"))
 
     prompts = [
         ("build-it", "Build it", "build-prompt.md", "Download the template and build a personalized site — start here."),
@@ -134,14 +136,14 @@ for e in reg["templates"]:
     ]
     blocks = []
     for pslug, ptitle, pfname, pblurb in prompts:
-        ptext = open(os.path.join(f"{B}/site/kits/{slug}/v1.1", pfname), encoding="utf-8").read()
+        ptext = open(os.path.join(kit_dir, pfname), encoding="utf-8").read()
         blocks.append(f'''      <details class="prompt-block" id="prompt-{pslug}">
         <summary>
           <span class="prompt-title">{ptitle}</span>
           <span class="prompt-blurb">{pblurb}</span>
           <button class="copy-btn" type="button" data-copy-target="pre-{pslug}" aria-label="Copy the {ptitle} prompt">Copy</button>
         </summary>
-        <p class="prompt-meta"><a href="../kits/{slug}/v1.1/{pfname}" download>View raw ({pfname})</a> · kit v1 · placeholders in [BRACKETS] are yours</p>
+        <p class="prompt-meta"><a href="../{kit_rel}{pfname}" download>View raw ({pfname})</a> · placeholders in [BRACKETS] are yours</p>
         <pre id="pre-{pslug}">{html.escape(ptext)}</pre>
       </details>''')
     kit_html = "\n".join(blocks)
@@ -229,7 +231,7 @@ for e in reg["templates"]:
         <span class="ember-hair" aria-hidden="true"></span>
         <h2 class="section-title" id="kit-title">Remix it with your agent — no account needed</h2>
         <p class="lead" style="margin-top:.8rem;">Copy a prompt into your own coding agent. Build it from the template package, brand it, iterate, then publish to your own Cloudflare. The full text is on the page — nothing hidden behind an account.</p>
-        <p class="token-legend">Placeholders: <code>[YOUR-…]</code> = fill before or during the run · <code>{{…}}</code> = your agent will ask you. Kit files stay versioned at <code>/kits/__SLUG__/v1.1/</code>.</p>
+        <p class="token-legend">Placeholders: <code>[YOUR-…]</code> = fill before or during the run · <code>{{…}}</code> = your agent will ask you. Kit files stay versioned at <code>/kits/__SLUG__/</code>.</p>
 __KIT__
       </div>
     </section>

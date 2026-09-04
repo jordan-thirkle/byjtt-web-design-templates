@@ -140,5 +140,5 @@
   "supersededBy": null,
   "createdAt": "2026-09-02T15:00:00Z",
   "updatedAt": "2026-09-04T01:25:00Z",
-  "promptKit": "./kits/signal/v1.1/"
+  "promptKit": "./kits/signal/v1.0/"
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-09-04T00:22:00Z",
+  "generatedAt": "2026-09-04T00:53:51Z",
   "marketplace": "ByJTT Web Design Templates for Agents / AI",
   "canonicalUrl": "https://byjtt-templates.pages.dev",
   "categories": [
@@ -151,7 +151,7 @@
           "multi-page sites with blog content"
         ]
       },
-      "promptKit": "./kits/signal/v1.1/",
+      "promptKit": "./kits/signal/v1.0/",
       "updatedAt": "2026-09-04T01:25:00Z"
     }
   ]

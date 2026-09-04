@@ -153,5 +153,6 @@
   "supersededBy": null,
   "createdAt": "2026-09-02T09:30:00Z",
   "updatedAt": "2026-09-02T13:40:00Z",
-  "promptKit": "./kits/embercraft/v1.1/"
+  "promptKit": "./kits/embercraft/v1.1/",
+  "category": "landing-pages"
 }

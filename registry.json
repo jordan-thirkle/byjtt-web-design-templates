@@ -175,7 +175,8 @@
       "updatedAt": "2026-09-02T13:40:00Z",
       "status": "deployed",
       "releaseState": "published",
-      "promptKit": "./kits/embercraft/v1.1/"
+      "promptKit": "./kits/embercraft/v1.1/",
+      "category": "landing-pages"
     },
     {
       "id": "T-002",
@@ -319,7 +320,7 @@
       "supersededBy": null,
       "createdAt": "2026-09-02T15:00:00Z",
       "updatedAt": "2026-09-04T01:25:00Z",
-      "promptKit": "./kits/signal/v1.1/",
+      "promptKit": "./kits/signal/v1.0/",
       "status": "deployed",
       "releaseState": "published"
     }
