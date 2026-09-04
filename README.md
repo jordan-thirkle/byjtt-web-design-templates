@@ -43,4 +43,4 @@ The marketplace is a static directory (`site/`) currently live on **GitHub Pages
 
 ## Status
 
-v0.1 — first template (T-001 "Embercraft") shipped through the full gauntlet. Improvement backlog lives in [`docs/lessons-learned.md`](docs/lessons-learned.md).
+**v1.0.0 "First Light"** — feature-complete marketplace edition: studio skill, two gauntlet-tested templates (T-001 Embercraft v1.1.0, T-002 Signal v1.0.0), versioned agent prompt kits, human + machine catalogs, three hosting surfaces (Cloudflare Pages canonical, templates.byjtt.com custom domain, GitHub Pages mirror), and the full docs set. Post-1.0 roadmap: v2 accounts (Worker + D1 + OAuth, see [`docs/v2-accounts-design.md`](docs/v2-accounts-design.md)) and the improvement backlog in [`docs/lessons-learned.md`](docs/lessons-learned.md).

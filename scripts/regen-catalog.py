@@ -24,7 +24,7 @@ for e in reg["templates"]:
     entries.append({
         "id": e["id"], "slug": slug, "name": e["name"], "version": e["version"],
         "language": e["language"], "archetype": e["archetype"],
-        "category": CAT_MAP.get(e["archetype"], "landing-pages"),
+        "category": e.get("category") or CAT_MAP.get(e["archetype"], "landing-pages"),
         "description": e["description"], "tags": e["tags"], "tier": e["tier"],
         "price": e["price"], "purchaseState": e["purchaseState"], "purchaseUrl": e["purchaseUrl"],
         "license": e["license"], "detailPage": f"./templates/{slug}.html",
@@ -43,3 +43,12 @@ catalog = {
 }
 json.dump(catalog, open(f"{B}/site/catalog.json", "w"), indent=2, ensure_ascii=False)
 print(f"catalog regenerated: {len(entries)} entries, canonical {canonical}")
+ai = {
+    "schemaVersion": "1.0.0", "name": reg["marketplace"]["name"],
+    "id": "urn:byjtt:web-design-templates",
+    "description": "One-shot unique website design templates with free and paid tiers. Machine catalog: /catalog.json; per-template contracts: /manifests/<slug>.json.",
+    "entries": [{"type": "product", "name": x["name"], "url": f"{canonical}{x['detailPage'][1:]}"} for x in entries],
+    "links": [{"rel": "catalog", "href": f"{canonical}/catalog.json"}, {"rel": "licensing", "href": f"{canonical}/licensing.html"}],
+}
+json.dump(ai, open(f"{B}/site/.well-known/ai-catalog.json", "w"), indent=2, ensure_ascii=False)
+print(f"ai-catalog regenerated: {len(ai['entries'])} entries")

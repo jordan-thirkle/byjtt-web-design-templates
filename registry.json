@@ -293,7 +293,7 @@
         "presetAnchor": "15 Ash Thorp (experimental vanguard) with information-architecture grid"
       },
       "preview": {
-        "liveUrl": null,
+        "liveUrl": "https://byjtt-templates.pages.dev/previews/signal/",
         "screenshots": [
           "./assets/templates/signal/01_hero.jpg",
           "./assets/templates/signal/02_visual.jpg"
@@ -318,8 +318,10 @@
       ],
       "supersededBy": null,
       "createdAt": "2026-09-02T15:00:00Z",
-      "updatedAt": "2026-09-02T15:00:00Z",
-      "promptKit": "./kits/signal/v1.1/"
+      "updatedAt": "2026-09-04T01:25:00Z",
+      "promptKit": "./kits/signal/v1.1/",
+      "status": "deployed",
+      "releaseState": "published"
     }
   ]
 }
